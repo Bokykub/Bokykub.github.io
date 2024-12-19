@@ -1,5 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Form</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>แบบสอบถาม</h1>
+    <hr>
+    <form>
+        <table align="center">
+            <tr>
+                <td><label>ข้อมูลผู้ตอบแบบสอบถาม</label></td>
+            </tr>
+            <tr>
+                <td><label>ชื่อ-นามสกุล</label>
+                <input type="text" name="username" required></td>
+            </tr>
+            <tr>
+                <td><label>รหัสนักศึกษา</label>
+                <input type="text" name="std" required></td>
+            </tr>
+            <tr>
+                <td><label>เพศ</label>
+                <input type="radio" name="male" required><label for="male">ชาย</label>
+                <input type="radio" name="female"><label for="female">หญิง</label></td>
+            </tr>
+            <tr>
+                <td><label for="Department">สังกัดคณะ</label>
+                
+                    <select name="Department" id="Department">
+                        <option value="วิทยาการคอมพิวเตอร์">วิทยาการคอมพิวเตอร์</option>
+                        <option value="ครุศาสตร์">ครุศาสตร์</option>
+                        <option value="มนุษย์ศาสตร์">มนุษย์ศาสตร์</option>
+                        <option value="เทคโนโลยีอุตสาหกรรม">เทคโนโลยีอุตสาหกรรม</option>
+                        <option value="เกษตรศาสตร์">เกษตรศาสตร์</option>
+                        <option value="พยาบาลศาสตร์">พยาบาลศาสตร์</option>
+                        <option value="สาธารณสุขศาสตร์">สาธารณสุขศาสตร์</option>
+                        <option value="แพทย์แผนไทยและทางเลือก">แพทย์แผนไทยและทางเลือก</option>
+                        <option value="นิติศาสตร์">นิติศาสตร์</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><Label>แม่สีที่ชื่นชอบ</Label><br>
+                <input type="checkbox"><label for="red">แดง</label>
+                    <input type="checkbox"><label for="blue">น้ำเงิน</label>
+                    <input type="checkbox"><label for="green">เขียว</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>ผลไม้ที่ชื่นชอบ</label><br>
+                <input type="checkbox"><label for="mango">มะม่วง</label>
+                    <input type="checkbox"><label for="potato">มันบด</label>
+                    <input type="checkbox"><label for="durian">ทุเรียน</label><br>
+                    <input type="checkbox"><label for="durian">ลำไย</label>
+                    <input type="checkbox"><label for="durian">ฝรั่ง</label>
+                    <input type="checkbox"><label for="durian">แตงโต</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>อาหารที่ชื่นชอบ</label><br>
+                <input type="checkbox"><label for="mango">ต้มยำกุ้ง</label>
+                    <input type="checkbox"><label for="potato">ไข่เจียวหมูสับ</label>
+                    <input type="checkbox"><label for="durian">แกงข่าไก่</label><br>
+                    <input type="checkbox"><label for="durian">แกงเขียวหวานไก่</label>
+                    <input type="checkbox"><label for="durian">ผัดไทย</label>
+                    <input type="checkbox"><label for="durian">ราดหน้าหมี่กรอบ</label>
+                </td>
+            </tr>
+            <tr align="center">
+                <td><input  type="submit" value="บันทึก"></td>
+            </tr>
+        </table>
+    </form>
+
+
+
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +106,10 @@
     <a href="about.html">About</a>
     <a href="contact.html">contact</a>
     <h1>My Home Page</h1>
-    <h2>My Home Page</h2>
-    <h3>My Home Page</h3>
-    <h4>My Home Page</h4>
-    <h5>My Home Page</h5>
-    <h6>My Home Page</h6>
     <hr>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore perferendis ducimus impedit cupiditate eaque sunt eum pariatur error earum praesentium. Veniam veritatis eaque unde, suscipit natus at nam ratione laboriosam.</p>
     <img src="/img/happy.png" alt="grympy cat">
     <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/461.png" alt="Weavile">
 
 </body>
-</html>
+</html> -->
